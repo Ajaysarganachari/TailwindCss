@@ -1,0 +1,7 @@
+create database sahil;
+show databases;
+use sahil;
+create table employees(id int primary key,name varchar(50),dept varchar(50),age int,salary decimal(10,2));
+show tables;
+
+insert into employees (id,name,dept,age,salary)values(1,"abc","technology",25,45000.00);
